@@ -1,0 +1,11 @@
+{
+    "name": "6to4proxy",
+    "version": "0.0.1",
+    "description": "creates a pipe between an IPv6 and an IPv4 socket",
+    "author": {
+        "name": "bee"
+    },
+    "dependencies": {
+        "typescript": "^1.8.0"
+    }
+}
