@@ -10,6 +10,6 @@
     "typings": "^1.3.3"
   },
   "scripts": {
-    "postinstall": "node_modules/.bin/typings install"
+    "postinstall": "nodejs ./node_modules/.bin/typings install"
   }
 }
