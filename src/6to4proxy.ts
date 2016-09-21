@@ -1,5 +1,3 @@
-/// <reference path="typings/index.d.ts" />
-
 let argv = process.argv;
 if ( argv.length < 4) {
     printUsage(argv[1]);

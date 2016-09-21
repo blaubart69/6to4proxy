@@ -9,7 +9,6 @@
         "typescript": "^1.8.0"
     },
     "scripts": {
-        "postinstall": "typings install",
-        "npm (install packages)": "npm install"
+        "postinstall": "typings install"
     }
 }
