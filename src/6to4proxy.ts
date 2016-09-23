@@ -37,12 +37,12 @@ function forwardOnePort(ip2Listen : string, portToForward : number) {
         } );
 
         sock4.on('end', () => {
-            console.debug('v4 socket got closed. closing v6 socket too.');
+            console.log('v4 socket got closed. closing v6 socket too.');
             sock6.end();
         });
 
         sock6.on('end', () => {
-            console.debug('v6 socket got closed. closing v4 socket too.');
+            console.log('v6 socket got closed. closing v4 socket too.');
             sock4.end();
         });
     });
